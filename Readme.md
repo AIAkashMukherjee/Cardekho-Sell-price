@@ -26,19 +26,19 @@ This data can be used for a lot of purposes such as Used Car Price Prediction us
 
 ### Not able to add Model because of its size
 
-
 ### How to run:
 
 1. Create a new environment
 
 ```shell
-virtualenv ml_package
+conda create --name myenv
+
 ```
 
 2. Activate the environment
 
 ```shell
-source ml_package/bin/activate
+source activate myenv
 ```
 
 3. Install required packages
